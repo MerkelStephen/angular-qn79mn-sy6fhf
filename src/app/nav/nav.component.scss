@@ -1,5 +1,11 @@
-.list-group {
-  
+@import '../../assets/scss/main.scss';
+
+.imgnav {
+  max-width: 5em;
+}
+
+.imgnavtext {
+  @include font-size(2rem);
 }
 
 .nav-link:hover {
@@ -13,7 +19,7 @@ ul.nav .nav-item a:hover {
 }
 
 ul.nav .nav-item .active a {
-  color: rgba(var(--bs-dark-rgb),var(--bs-text-opacity))!important;
+  color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
   border: 2px black;
   opacity: 1;
   background-color: rgba(235, 140, 0, 0.5) !important;
