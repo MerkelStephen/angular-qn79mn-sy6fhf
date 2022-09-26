@@ -1,11 +1,12 @@
 @import '../../assets/scss/main.scss';
 
 .imgnav {
-  max-width: 5em;
+  max-width: 4em;
+  min-width: 1em;
 }
 
 .imgnavtext {
-  @include font-size(2rem);
+  font-size: 0.75rem;
 }
 
 .nav-link:hover {
